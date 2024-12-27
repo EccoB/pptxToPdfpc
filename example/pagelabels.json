@@ -1,0 +1,10 @@
+{
+    "animations":[
+        {
+            "relStart": 3,
+            "slides": 2,
+            "name":"The first animation, starting at the third slide (relative to the last animation, here the beginning). It contains 2 slides as an animation."
+        }
+    ]
+    
+}

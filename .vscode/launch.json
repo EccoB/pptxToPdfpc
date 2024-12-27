@@ -1,0 +1,23 @@
+{   // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "My own",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+            "${workspaceFolder}/example/ExampleAnimationsToPDF_Original.pptx",
+            "${workspaceFolder}/example/ExampleAnimationsToPDF.pdf",
+            "${workspaceFolder}/example/pagelabels.json",
+            "${workspaceFolder}/example/finalPPTx_withComentsAndPageLabels.pdf"],
+            "env": {
+            "PYTHONPATH": "${workspaceFolder}/modules"
+            }
+        }
+        
+    ]
+}
